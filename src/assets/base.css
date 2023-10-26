@@ -1,86 +1,46 @@
-/* color palette from <https://github.com/vuejs/theme> */
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@1;100;200;300;400;500;600;700;800;900;1000&family=Staatliches&display=swap');
+
 :root {
-  --vt-c-white: #ffffff;
-  --vt-c-white-soft: #f8f8f8;
-  --vt-c-white-mute: #f2f2f2;
+  --primary: #0f0d15;
+  --background: #0a0a0a;
+  --secondary: rgb(11, 99, 150);
+  --borderColor: rgb(0, 0, 0);
+  --input: #1e1e1ec1;
+  --monestral: #09080c;
 
-  --vt-c-black: #181818;
-  --vt-c-black-soft: #222222;
-  --vt-c-black-mute: #282828;
+  --primary-500: #1eadff;
+  --primary-600: #068fff;
+  --primary-700: #007bff;
 
-  --vt-c-indigo: #2c3e50;
+  --success-500: #138e76;
+  --success-600: #157866;
+  --success-700: #155a4f;
 
-  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
-  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
-  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
-  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+  --warning-600: #cab902;
+  --warning-700: #a38805;
+  --warning-800: #866a0d;
 
-  --vt-c-text-light-1: var(--vt-c-indigo);
-  --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
-  --vt-c-text-dark-1: var(--vt-c-white);
-  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+  --danger-600: #bc4246;
+  --danger-700: #9d3339;
+  --danger-800: #842d35;
+
+  --black: #000000;
+  --white: #ffffff;
+  --gray: #606060;
+
+  --text-primary: rgb(255, 255, 255);
+  --text-secondary: rgb(0, 0, 0);
+  --bg-menu-secondary: #1f1f1f;
+  --bg-menu-primary: #141414;
+
+  --ff-francois: 'Francois One', sans-serif;
+  --ff-roboto: 'Roboto Condensed', sans-serif;
+  --ff-sofia: 'Sofia Sans', sans-serif;
+  --ff-poiret: 'Poiret One', cursive;
+  --ff-staatliches: 'Staatliches', cursive;
 }
-
-/* semantic color variables for this project */
-:root {
-  --color-background: var(--vt-c-white);
-  --color-background-soft: var(--vt-c-white-soft);
-  --color-background-mute: var(--vt-c-white-mute);
-
-  --color-border: var(--vt-c-divider-light-2);
-  --color-border-hover: var(--vt-c-divider-light-1);
-
-  --color-heading: var(--vt-c-text-light-1);
-  --color-text: var(--vt-c-text-light-1);
-
-  --section-gap: 160px;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: var(--vt-c-black);
-    --color-background-soft: var(--vt-c-black-soft);
-    --color-background-mute: var(--vt-c-black-mute);
-
-    --color-border: var(--vt-c-divider-dark-2);
-    --color-border-hover: var(--vt-c-divider-dark-1);
-
-    --color-heading: var(--vt-c-text-dark-1);
-    --color-text: var(--vt-c-text-dark-2);
-  }
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+* {
   margin: 0;
-  font-weight: normal;
-}
-
-body {
-  min-height: 100vh;
-  color: var(--color-text);
-  background: var(--color-background);
-  transition:
-    color 0.5s,
-    background-color 0.5s;
-  line-height: 1.6;
-  font-family:
-    Inter,
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  font-size: 15px;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }

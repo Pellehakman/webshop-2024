@@ -4,5 +4,6 @@
 
 <template>
   <siteNav/>
+  <siteProducts />
 
 </template>
