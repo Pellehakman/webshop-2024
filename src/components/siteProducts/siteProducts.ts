@@ -1,11 +1,17 @@
 import { defineComponent, ref } from 'vue'
-import siteItem from '../siteItem/siteItem.vue'
+import siteItems from '../siteItems/siteItems.vue'
+import meals from '../json/meals.json'
 export default defineComponent({
   name: 'products-site',
-  components: { siteItem },
+  components: { siteItems },
+
   setup() {
+
+    
+    const db = meals.meals
     return {
-      siteItem
+      db,
+      siteItems
     }
   }
 })

@@ -1,0 +1,44 @@
+{
+  "meals": [
+    {
+      "id": 1,
+      "title": "Cheeseburger",
+      "description": "A classic cheeseburger with a juicy beef patty, melted cheese, lettuce, tomato, and pickles, all served on a toasted bun.",
+      "price": 5.99,
+      "ingredients": ["Beef patty", "Cheese", "Lettuce", "Tomato", "Pickles", "Bun"],
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "title": "Chicken Nuggets",
+      "description": "Crispy and tender chicken nuggets made from white meat, served with your choice of dipping sauce.",
+      "price": 4.99,
+      "ingredients": ["Chicken", "Breading", "Vegetable oil", "Dipping sauce"],
+      "rating": 3
+    },
+    {
+      "id": 3,
+      "title": "Margherita Pizza",
+      "description": "A simple yet delicious pizza topped with fresh mozzarella, tomatoes, basil, and a drizzle of olive oil.",
+      "price": 8.99,
+      "ingredients": ["Dough", "Mozzarella", "Tomatoes", "Basil", "Olive oil"],
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "title": "Fish and Chips",
+      "description": "Crispy beer-battered fish fillets served with golden-brown French fries and tartar sauce.",
+      "price": 9.99,
+      "ingredients": ["Fish fillets", "Batter", "Potatoes", "Vegetable oil", "Tartar sauce"],
+      "rating": 4
+    },
+    {
+      "id": 5,
+      "title": "Caesar Salad",
+      "description": "A fresh salad made with crisp romaine lettuce, grilled chicken, Parmesan cheese, croutons, and Caesar dressing.",
+      "price": 7.99,
+      "ingredients": ["Romaine lettuce", "Grilled chicken", "Parmesan cheese", "Croutons", "Caesar dressing"],
+      "rating": 5
+    }
+  ]
+}

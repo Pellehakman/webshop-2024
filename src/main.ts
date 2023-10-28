@@ -25,7 +25,8 @@ import {
   faUser,
   faAnglesUp,
   faRightLong,
-  faExpand
+  faExpand,
+  faShoppingCart
 } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookSquare, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
@@ -45,7 +46,8 @@ library.add(
   faUser,
   faAnglesUp,
   faRightLong,
-  faExpand
+  faExpand,
+  faShoppingCart
 )
 const app = createApp(App).component('font-awesome-icon', FontAwesomeIcon)
 

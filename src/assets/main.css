@@ -5,7 +5,7 @@
 
 @layer base {
   body {
-    @apply  bg-green-800 ;
+    @apply font-sofia bg-green-800 ;
   }
 
 }
