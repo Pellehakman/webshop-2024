@@ -4,7 +4,7 @@
   <div class="bg-slate-100 flex p-4 gap-4 justify-center flex-wrap">
 
    <div v-for="(item, id) in db" :key="id">
-      <siteItems :title="item.title" :description="item.description" :price="item.price" :ingredients="item.ingredients" />
+      <siteItems :imageURL="item.imageURL" :title="item.title" :description="item.description" :price="item.price" :ingredients="item.ingredients" />
     </div>
     
     
