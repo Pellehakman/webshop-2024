@@ -16,17 +16,18 @@
                     <!-- <img class="w-1/3 h-16 object-cover rounded-sm drop-shadow-lg " :src="props.imageURL"/> -->
                   </div>
                     
-                    <!-- <div class="flex justify-between items-center ">
+                    <div class="flex justify-between items-center ">
                     <h2 class="text-lg">${{ props.price }}</h2>
-                    <div class=" flex justify-end pt-4">
-                        <button class="px-6 py-2 bg-blue-600 font-bold text-white">Add to cart</button>
-                    </div>
                     
-                  </div> -->
+                    
+                  </div>
                 </div>
                 <div class="w-1/3 overflow-hidden bg-white flex items-center justify-center">
-                  <img :src="props.imageURL" />
+                  <img class="w-full h-full object-cover" :src="props.imageURL" />
                 </div>
+                <div class=" flex justify-end pt-4 absolute right-0 bottom-0">
+                        <button class="px-6 py-2 m-4 bg-blue-600 font-bold text-white">Add to cart</button>
+                    </div>
             </section>
             
         </article>
