@@ -20,7 +20,7 @@ export default defineComponent({
     const getStarClass = (index: any) => {
       return index <= rating.value ? 'text-yellow-500' : 'text-slate-400'
     }
-    function clickProduct(id) {
+    function clickProduct(id: any) {
       console.log(id)
       showItem.value = true
       document.body.style.overflow = 'hidden'
