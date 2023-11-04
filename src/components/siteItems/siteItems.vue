@@ -2,9 +2,9 @@
 
 <template>
   <div class="border border-gray drop-shadow-md overflow-hidden  rounded-sm bg-white">
-    <div class="absolute flex flex-col top-4 left-0 z-20 ">
+    <!-- <div class="absolute flex flex-col top-4 left-0 z-20 ">
       <span class="bg-blue-600 py-1 px-8 flex items-center text-white">Kampanj!</span>
-    </div>
+    </div> -->
 
     <div class="w-full flex justify-center relative">
       <img class="w-full object-cover h-24" :src="props.imageURL" />
