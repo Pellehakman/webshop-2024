@@ -1,40 +1,24 @@
 <script src="./siteItems.ts" lang="ts"></script>
 
 <template>
-  
-  <div class="siteItem" v-if="showItem">
-    <div class="flex flex-col">
-      <h1>{{ props.title }}</h1>
-      <p>{{ props.description }}</p>
-      {{ props.price }}
-      <button class="border p-4" @click="closeProduct">stäng</button>
-    </div>
-  </div>
-  <article>
-    <section @click="clickProduct(props.id)" class="item flex drop-shadow-lg rounded-sm">
-      <div class="item-details bg-white w-2/3 p-4">
-        <div class="flex items-center">
-          <h1 class="font-black uppercase text-lg">{{ props.title }}</h1>
-          
-        </div>
-        <div class="flex items-center">
-          <p class="text-base font-extralight pr-4 description-text line-clamp-3">
-            {{ props.description }}
-          </p>
-        </div>
+  <div class="border border-gray drop-shadow-md   rounded-lg bg-white">
+    <div class="absolute flex flex-col gap-2 left-0 top-2 z-20 ">
+      <span class="bg-red-600  py-1 px-4 flex items-center text-white">Kampanj!</span>
 
-        <div class="flex justify-between items-center pt-4">
-          <h2 class="text-lg font-black">${{ props.price }}</h2>
-        </div>
-      </div>
-      <div class="w-1/3 overflow-hidden bg-white flex items-center justify-center">
-        <img class="w-full h-full object-cover" :src="props.imageURL" />
-      </div>
-      <div class="flex justify-end pt-4 absolute right-0 bottom-0">
-        <button class="px-6 py-2 m-4 bg-blue-400 font-bold text-white">Add to cart</button>
-      </div>
-    </section>
-  </article>
+    </div>
+
+
+    <div class="w-full flex justify-center relative">
+      <img class="w-full object-cover h-24" :src="props.imageURL" />
+
+      
+    </div>
+    <div class="flex flex-col mb-2 p-3">
+      <h1 class="text-md font-black uppercase">{{ props.title }}</h1>
+      <span class="text-sm ">{{ props.description }}</span>      
+    </div>
+    <button class="bg-blue-500 text-white text-sm font-bold w-full py-3">ADD TO CART (${{props.price}})</button>
+  </div>
 </template>
 <style>
 .siteItem {
