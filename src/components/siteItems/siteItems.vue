@@ -9,11 +9,11 @@
 
 
     <div class="w-full flex justify-center relative">
-      <img class="w-full object-cover h-36" :src="props.imageURL" />
+      <img class="w-full object-cover h-24" :src="props.imageURL" />
 
       
     </div>
-    <div class="flex flex-col mb-4 p-2">
+    <div class="flex flex-col mb-2 p-3">
       <h1 class="text-md font-black uppercase">{{ props.title }}</h1>
       <span class="text-sm ">{{ props.description }}</span>      
     </div>
