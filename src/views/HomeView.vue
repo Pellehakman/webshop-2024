@@ -4,6 +4,7 @@
 
 <template>
   <siteNav/>
+  <sortingNav/>
   <siteProducts />
 
 </template>
