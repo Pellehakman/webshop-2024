@@ -3,7 +3,7 @@
 <template>
   <div class="border border-gray drop-shadow-md   rounded-lg bg-white">
     <div class="absolute flex flex-col gap-2 left-0 top-2 z-20 ">
-      <span class="bg-red-600  py-1 px-4 flex items-center text-white">Kampanj!</span>
+      <span class="bg-red-500  py-1 px-4 flex items-center text-white">Kampanj!</span>
       
 
     </div>
@@ -18,7 +18,13 @@
       <h1 class="text-md font-black uppercase">{{ props.title }}</h1>
       <span class="text-sm ">{{ props.description }}</span>      
     </div>
-    <button class="bg-blue-500 text-white text-sm font-bold w-full py-3">ADD TO CART (${{props.price}})</button>
+    
+
+    <button class="bg-black text-white text-sm font-bold w-full py-4">
+      <font-awesome-icon class="text-white px-2" icon="fa-solid fa-cart-shopping" />
+      <span>ADD TO CART</span>
+      <span class="px-2">(${{props.price}})</span>
+    </button>
   </div>
 </template>
 <style>

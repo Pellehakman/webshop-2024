@@ -1,7 +1,7 @@
 <script src="./siteProducts.ts" lang="ts"></script>
 
 <template>
-  <div class="bg-slate-100 flex p-4 gap-4 flex-col justify-center flex-wrap">
+  <div class="bg-slate-100 flex p-2 gap-4 flex-col justify-center flex-wrap">
     <div v-for="(item, id) in db" :key="id">
       <siteItems
         :id="item.id"
