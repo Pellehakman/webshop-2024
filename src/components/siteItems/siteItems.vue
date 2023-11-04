@@ -1,9 +1,9 @@
 <script src="./siteItems.ts" lang="ts"></script>
 
 <template>
-  <div class="border border-gray drop-shadow-md   rounded-lg bg-white">
-    <div class="absolute flex flex-col gap-2 left-0 top-2 z-20 ">
-      <span class="bg-red-500  py-1 px-4 flex items-center text-white">Kampanj!</span>
+  <div class="border border-gray drop-shadow-md overflow-hidden  rounded-sm bg-white">
+    <div class="absolute flex flex-col top-4 left-0 z-20 ">
+      <span class="bg-blue-600 py-1 px-8 flex items-center text-white">Kampanj!</span>
       
 
     </div>
@@ -16,7 +16,7 @@
     </div>
     <div class="flex flex-col mb-2 p-3">
       <h1 class="text-md font-black uppercase">{{ props.title }}</h1>
-      <span class="text-sm ">{{ props.description }}</span>      
+      <span class="text-sm line-clamp-2">{{ props.description }}</span>      
     </div>
     
 
