@@ -1,10 +1,23 @@
 <script src="./siteItems.ts" lang="ts"></script>
 
 <template>
-  
-  <div class=" relative bg-slate-500 h-40 overflow-hidden ">
-    <img class=" bg-no-repeat  " :src="props.imageURL" />
-    hej 
+  <div class="border border-gray drop-shadow-md   rounded-lg bg-white">
+    <div class="absolute flex flex-col gap-2 left-0 top-2 z-20 ">
+      <span class="bg-red-600  py-1 px-4 flex items-center text-white">Kampanj!</span>
+
+    </div>
+
+
+    <div class="w-full flex justify-center relative">
+      <img class="w-full object-cover h-36" :src="props.imageURL" />
+
+      
+    </div>
+    <div class="flex flex-col mb-4 p-2">
+      <h1 class="text-md font-black uppercase">{{ props.title }}</h1>
+      <span class="text-sm ">{{ props.description }}</span>      
+    </div>
+    <button class="bg-blue-500 text-white text-sm font-bold w-full py-3">ADD TO CART (${{props.price}})</button>
   </div>
 </template>
 <style>
