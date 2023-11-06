@@ -1,7 +1,7 @@
 <script src="./sortingNav.ts" lang="ts"></script>
 
 <template>
-  <div class=" overflow-y-scroll w-full flex gap-2 py-2 px-2">
+  <div class=" overflow-y-scroll w-full flex gap-2 pt-2 pb-1 px-2">
     <div class="sortingItem_active bg-rose-600">All</div>
     <div class="sortingItem">Burgers</div>
     <div class="sortingItem">Chicken</div>

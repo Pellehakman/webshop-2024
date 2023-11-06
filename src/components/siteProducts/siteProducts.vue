@@ -1,8 +1,8 @@
 <script src="./siteProducts.ts" lang="ts"></script>
 
 <template>
-  <div class=" flex px-2 pb-2 gap-2 flex-col justify-center flex-wrap">
-    <div v-for="(item, id) in db" :key="id">
+  <div class=" flex flex-wrap px-1">
+    <div v-for="(item, id) in db" :key="id" class="w-1/2 ">
       <siteItems
         :id="item.id"
         :imageURL="item.imageURL"
@@ -10,6 +10,8 @@
         :description="item.description"
         :price="item.price"
         :ingredients="item.ingredients"
+        class="text-xs m-1"
+
       />
     </div>
   </div>
